@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <header>
+        <div class="header_container">
+            <div class="inside_container">
+                <div class="dropdown">
+                    <button class="dropbtn">Iniciar Sesión
+                        <img class="fa-caret-down" src="/img/carete-down.svg" alt="">
+                        <!-- <i class="fa fa-caret-down"></i> -->
+                    </button>
+                    <div class="dropdown-content">
+                      <a href="#">Iniciar Sesión</a>
+                      <a href="#">Crear Cuenta</a>
+                    </div>
+                </div>
+            </div>
+            <div class="inside_container">
+                <!-- <i class="fa-solid fa-magnifying-glass"></i> -->
+                <img class="search" src="/img/search.svg" alt="" />
+            </div>
+            <div class="inside_container ">
+                <div class="insidetex">
+                    <img class="tex_a" src="/img/a.svg" alt="">
+                    <img class="tex_b " src="/img/a.svg" alt="">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- menuu -->
+    <div class="menu">
+        <div class="menu_container">
+            <div class="logo_container">
+                <div class="logo_items">
+                    <img class="img_logo" src="/img/logo.svg" alt="logo" />
+                </div>
+                <div class="logo_items">
+                    <h2>Hospital</h2>
+                </div>
+            </div>
+            <div class="menu_items">
+                <div class="menu_item"><a href="#">Nosotros</a></div>
+                <div class="menu_item"><a href="#">Servicios</a></div>
+                <div class="menu_item"><a href="#">Contacto</a></div>
+            </div>
+        </div>
+    </div>
+    <!-- formulario -->
+<section>
+    <div class="section_container">
+        <div class="presentation">
+            <img class="img_prese" src="/img/medi.jpg" alt="mecina">
+        </div>
+        <h2 class="title_form">
+            Registro Paciente
+        </h2>
+        <form action="#" class="formulario">
+            <ul>
+                <li>
+                    <label for="cedula" >Cédula:</label>
+                    <input type="text"  id="cedula" />
+                </li>
+                <li>
+                    <label for="nombre" >Nombre:</label>
+                    <input type="text" name="nombre" id="nombre" />
+                </li>
+                <li>
+                    <label for="apellido" >Apellido:</label>
+                    <input type="text"  name="apellido" id="apellido" />
+                </li>   
+                <li>
+                    <label for="email" >Email:</label>
+                    <input type="email"  name="email" id="email" />
+                </li>  
+                <li>
+                    <label for="telefono" >Telefono:</label>
+                    <input type="tel"  name="telefono" id="telefono" />
+                </li>    
+            </ul>
+            <ul>
+                <li>
+                    <label for="direccion" >Dirección:</label>
+                    <input type="text" name="direccion" id="direccion" />
+                </li>
+                <li>
+                    <label for="ciudad" >Ciudad de Residencia:</label>
+                    <input type="text"  name="ciudad" id="ciudad" />
+                </li> 
+                <li>
+                    <label for="date" >Fecha de Nacimiento:</label>
+                    <input type="date" name="date" id="date" />
+                </li>
+                <li> 
+                    <label for="genero" >Genero:</label>
+                    <input type="text" name="genero" id="genero" />
+                </li> 
+            </ul>
+        </form>
+        <div class="btn_container">
+            <button type="reset" class="btn btn_cancel">Cancelar</button>
+            <button type="submit" class="btn btn_login">Registrar</button>
+        </div>
+    </div>
+</section>
+
+    <footer>
+        <div class="footer_container">
+            <div class="footer_items">
+                <div class="footer_item">
+                    <a class="text_footer" href="#"> Accesibilidad </a>
+                    <div class="separator">|</div>
+                </div>
+                <div class="footer_item">
+                    <a class="text_footer"  href="#"> Copyright </a>
+                    <div class="separator">|</div>
+                </div>
+                <div class="footer_item">
+                    <a class="text_footer" href="#"> Declaracion de privacidad </a>
+                    <div class="separator">|</div>
+                </div>
+            </div>
+            <div class="term_condicion">
+                <a href="#"> Terminos de uso </a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
